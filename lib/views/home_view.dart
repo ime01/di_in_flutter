@@ -28,7 +28,7 @@ class HomeView extends StatelessWidget {
           print('user LATLON $userLatLon');
           print(userCurrentLocation);
         },
-        child: Icon(Icons.location_city),
+        child: Icon(Icons.location_on),
       ),
 
       body: SafeArea(
